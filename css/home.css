@@ -814,7 +814,7 @@ button {
   width: max-content;
   position: absolute;
   left: 50%;
-  bottom: -50px;
+  bottom: -36px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   display: -webkit-box;
@@ -1664,6 +1664,12 @@ button {
   .mission .trip-card .card-body .card-info ul li {
     font-size: 18px;
   }
+  .mission .owl-carousel .owl-nav {
+    display: none;
+  }
+  .mission .owl-carousel .owl-dots {
+    display: block !important;
+  }
   .about-trip .about-trip-header {
     max-width: 360px;
     font-size: 26px;
@@ -1687,6 +1693,7 @@ button {
     height: 500px;
     padding: 66px 0;
     background-position: center center !important;
+    background-size: auto 100%;
   }
   .fixed-sec .inner-text .title {
     font-size: 26px;
