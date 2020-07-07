@@ -1694,7 +1694,7 @@ button {
     height: 500px;
     padding: 66px 0;
     background-position: center center !important;
-    background-size: unset !important;
+    background-size: cover !important;
   }
   .fixed-sec .inner-text .title {
     font-size: 26px;
